@@ -122,17 +122,11 @@ nav h1 a {
     padding: 1em 0;
 }
 
-/* Display list items side by side */
-
-#breadcrumb li {
-	/* display: inline; */
-}
-
 /* Add a slash symbol (/) before/behind each list item */
 
 #breadcrumb li + li:before {
 	padding: 8px;
-	color: black;
+	color: #f5f5f5;
 	content: "/\00a0";
 }
 
@@ -356,7 +350,6 @@ nav h1 a {
 	overflow: hidden;
 	padding: 0 20px 20px;
 	position: relative;
-	/* width: 85%; */
 }
 
 #reviews-list li p {

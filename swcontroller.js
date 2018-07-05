@@ -1,11 +1,11 @@
 let cacheName = 'mwsrs1',
 	cacheFiles = [
 		'index.html',
-		'restaurant.html'
+		'restaurant.html',
 		'css/styles.css',
 		'js/dbhelper.js',
 		'js/main.js',
-		'js/restaurant_info.js'
+		'js/restaurant_info.js',
 		'img/1.jpg',
 		'img/2.jpg',
 		'img/3.jpg',
