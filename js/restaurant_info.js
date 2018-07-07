@@ -1,5 +1,5 @@
-let restaurant;
-var newMap;
+let restaurant,
+	newMap;
 
 /**
  * Initialize map as soon as the page is loaded.

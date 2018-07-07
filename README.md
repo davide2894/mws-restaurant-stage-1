@@ -1,16 +1,31 @@
 # Mobile Web Specialist Certification Course
 ---
-#### _Three Stage Course Material Project - Restaurant Reviews_
+## Run the project
+In the project folder, you need to launch a local server on your computer.
 
-## Project Overview: Stage 1
+The recommended one is **python http server.**
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+Here's what you can do:
+- install Python from the official [website](https://www.python.org/)
+- just to be sure, check the installed version from terminal: command `python -V`
+- if you have Python 2.x, start the server with `python -m SimpleHTTPServer 8000`
+- else if you have version 3.x, use `python3 -m http.server 8000`.
 
-### Specification
+You can also set the port number as you prefer. For example, I used 3000.
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+## Specification
+Work on the provided, poor-performing, restaurant reviews website. To be specific:
+- make it **responsive**
+- make it **accessible**
+- use [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) so that content is provided to user even **offline**.
 
-### What do I do from here?
+## What I learned	
+How to analyze a webpage, its code, find improvements areas, elaborate a plan and apply those improvements.
+
+Most of all, I learned the importance to think offline-first. Nowadays the first priority is indeed to give the user the best experience posible. Hence provide content regardless network conditions.
+
+
+
 
 1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
 
